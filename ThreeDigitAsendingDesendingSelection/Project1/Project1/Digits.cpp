@@ -48,7 +48,7 @@ void main() {
 	else if ((var3 > var2) && (var2 > var1)) {
 		cout << "descending" << endl;
 	}
-	else {
+	else if ((var3 = var2) && (var2 = var1)){
 		cout << "neither" << endl;
 	}
 
